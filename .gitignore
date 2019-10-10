@@ -1,3 +1,4 @@
 node_modules
-main.css
+src/main.css
 yarn.lock
+dist

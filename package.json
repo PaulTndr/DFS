@@ -7,7 +7,7 @@
   "author": "Paul Tondereau <paul.tondereau@yahoo.fr>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn run postcss -o main.css tailwind.pcss"
+    "build": "rm -rf dist && mkdir dist && cp src/index.html dist && yarn run postcss -o dist/main.css src/tailwind.pcss && yarn run postcss -o src/main.css src/tailwind.pcss"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",
