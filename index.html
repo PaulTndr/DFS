@@ -9,23 +9,27 @@
     <link rel="stylesheet" href="main.css">
 
     <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-
-            background: skyblue;
-            color: #ffffff;
-            font-size: 2em;
-            text-align: center;
-        }
-
         p {
             font-family: 'Indie Flower', serif;
         }
+
+        .milieu {
+            margin: 10px auto;
+            height: 50px;
+            width: 20px;
+        }
+
+        .color {
+            background-color: olive;
+        }
     </style>
 </head>
-<body>
-<h1>Enfin du web !</h1>
-<p>Bonjour à tous.</p>
+<body class="bg-gray-100">
+<div class="flex content-center">
+    <h1 class="text-6xl max-w-lg mx-auto">Enfin du web !</h1>
+</div>
+
+<div class="milieu color"></div>
+<p class="bg-orange-300 shadow-xl hover:underline" >Bonjour à tous.</pclass>
 </body>
 </html>
